@@ -67,4 +67,15 @@ class BinaryTree
             return;
         }
 
+        // step 7: if the value in the data filed of the new is greter than that of the parent
+        else if (x > parent->info)
+        {
+            // 7a: make the right child of parent point to nee node
+            parent->rightchild = newNode;
+
+            // 7b: exit
+            return;
+        }
+    }
+
         
