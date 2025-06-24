@@ -54,4 +54,5 @@ class BinaryTree
             ROOT = newNode;
 
             // 5b: exit
-          
+            return;
+      
